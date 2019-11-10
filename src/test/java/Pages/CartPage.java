@@ -37,7 +37,7 @@ public class CartPage extends Base {
         List<WebElement> products = seleniumUtil.findElements (productName);
         List<String> displayedProducts=new ArrayList<> ();
 
-        int j = 0;
+
 
         for (WebElement product : products) {
             String[] name = product.getText ().split ("-");
